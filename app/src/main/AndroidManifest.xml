@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".workmanager.MyWorkManagerActivity"></activity>
+        <activity android:name=".livedata.MyLiveDataActivity"></activity>
+        <activity android:name=".viewmodel.MyViewModelActivity" />
+        <activity android:name=".workmanager.MyWorkManagerActivity" />
         <activity android:name=".lifecycle.MyLifecycleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

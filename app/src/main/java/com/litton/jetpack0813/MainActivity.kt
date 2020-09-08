@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.litton.jetpack0813.lifecycle.MyLifecycleActivity
+import com.litton.jetpack0813.livedata.MyLiveDataActivity
+import com.litton.jetpack0813.viewmodel.MyViewModelActivity
 import com.litton.jetpack0813.workmanager.MyWorkManagerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -17,6 +19,12 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
             R.id.mButton1->{
                 startActivity(Intent(this,MyWorkManagerActivity::class.java))
             }
+            R.id.mButton2->{
+                startActivity(Intent(this,MyViewModelActivity::class.java))
+            }
+            R.id.mButton3->{
+                startActivity(Intent(this, MyLiveDataActivity::class.java))
+            }
 
         }
     }
@@ -25,6 +33,8 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         setContentView(R.layout.activity_main)
         mButton.setOnClickListener(this)
         mButton1.setOnClickListener(this)
+        mButton2.setOnClickListener(this)
+        mButton3.setOnClickListener(this)
     }
 
 

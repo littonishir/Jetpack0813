@@ -1,5 +1,6 @@
 package com.litton.jetpack0813
 
+import androidx.lifecycle.MutableLiveData
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -13,5 +14,9 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+        var count1 = MutableLiveData<Int>()
+        count1.setValue(5)
+        print(count1)
+
     }
 }
