@@ -7,4 +7,10 @@
     <string name="buttonRed1">+1</string>
     <string name="buttonRed2">+2</string>
     <string name="buttonRed3">+3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="det">详情</string>
+    <string name="back">返回</string>
+    <string name="welcome">Welcome</string>
+    <string name="niu">牛油果绿的仙台</string>
 </resources>

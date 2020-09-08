@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".demo.ScoreActivity"></activity>
+        <activity android:name=".navigation.MyNavigationActivity"></activity>
+        <activity android:name=".demo.ScoreActivity" />
         <activity android:name=".livedata.MyLiveDataActivity" />
         <activity android:name=".viewmodel.MyViewModelActivity" />
         <activity android:name=".workmanager.MyWorkManagerActivity" />

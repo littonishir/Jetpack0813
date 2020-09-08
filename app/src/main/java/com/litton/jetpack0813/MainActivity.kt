@@ -7,6 +7,7 @@ import android.view.View
 import com.litton.jetpack0813.demo.ScoreActivity
 import com.litton.jetpack0813.lifecycle.MyLifecycleActivity
 import com.litton.jetpack0813.livedata.MyLiveDataActivity
+import com.litton.jetpack0813.navigation.MyNavigationActivity
 import com.litton.jetpack0813.viewmodel.MyViewModelActivity
 import com.litton.jetpack0813.workmanager.MyWorkManagerActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -29,6 +30,9 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
             R.id.mButton4->{
                 startActivity(Intent(this, ScoreActivity::class.java))
             }
+            R.id.mButton5->{
+                startActivity(Intent(this, MyNavigationActivity::class.java))
+            }
 
         }
     }
@@ -40,6 +44,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         mButton2.setOnClickListener(this)
         mButton3.setOnClickListener(this)
         mButton4.setOnClickListener(this)
+        mButton5.setOnClickListener(this)
     }
 
 
