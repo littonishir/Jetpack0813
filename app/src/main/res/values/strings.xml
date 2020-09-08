@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Jetpack0813</string>
+    <string name="teamRed">Houston</string>
+    <string name="teamBlue">Clippers</string>
+    <string name="t1">0</string>
+    <string name="t0">0</string>
+    <string name="buttonRed1">+1</string>
+    <string name="buttonRed2">+2</string>
+    <string name="buttonRed3">+3</string>
 </resources>

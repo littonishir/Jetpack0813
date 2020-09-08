@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.litton.jetpack0813.demo.ScoreActivity
 import com.litton.jetpack0813.lifecycle.MyLifecycleActivity
 import com.litton.jetpack0813.livedata.MyLiveDataActivity
 import com.litton.jetpack0813.viewmodel.MyViewModelActivity
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
             R.id.mButton3->{
                 startActivity(Intent(this, MyLiveDataActivity::class.java))
             }
+            R.id.mButton4->{
+                startActivity(Intent(this, ScoreActivity::class.java))
+            }
 
         }
     }
@@ -35,6 +39,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         mButton1.setOnClickListener(this)
         mButton2.setOnClickListener(this)
         mButton3.setOnClickListener(this)
+        mButton4.setOnClickListener(this)
     }
 
 
